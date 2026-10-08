@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    <color name="screen_bg">#1E1E24</color>
+    <color name="key_digit">#3A3A44</color>
+    <color name="key_operator">#5B5F97</color>
+    <color name="key_equals">#2E9E6B</color>
+    <color name="key_zero">#FF8033</color>   <!-- required: 0 key -->
+    <color name="key_ac">#FF3377</color>     <!-- required: AC key -->
+    <color name="key_c">#337DFF</color>      <!-- required: C key -->
+
+    <style name="CalcKey">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:onClick">onKeyClick</item>
+    </style>
+</resources>
