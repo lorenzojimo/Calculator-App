@@ -13,7 +13,7 @@ import java.math.BigDecimal;
  * Main screen of the calculator app.
  * Handles key presses, maintains the input panel text and evaluates expressions.
  *
- * @author Omar Lorenzo Jimenz
+ * @author Omar Lorenzo Jimenez
  */
 public class MainActivity extends AppCompatActivity {
 
